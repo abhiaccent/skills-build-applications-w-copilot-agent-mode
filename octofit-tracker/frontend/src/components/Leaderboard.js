@@ -3,7 +3,7 @@ import { Table, Card } from 'react-bootstrap';
 
 const Leaderboard = () => {
   const [leaderboard, setLeaderboard] = useState([]);
-  const endpoint = `${process.env.REACT_APP_CODESPACE_NAME ? `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev` : 'http://localhost:8000'}/api/leaderboard/`;
+  const endpoint = `${process.env.REACT_APP_CODESPACE_NAME ? `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev` : 'http://localhost:8000'}/api/leaderboards/`;
 
   useEffect(() => {
     fetch(endpoint)
