@@ -1,0 +1,88 @@
+
+
+body {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e0e7ff 100%);
+  color: #22223b;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #3a86ff;
+  letter-spacing: 1px;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+  border-radius: 12px;
+  border: 1px solid #e0e7ff;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.table {
+  margin-bottom: 0;
+  background-color: #edf2fb;
+  color: #22223b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table thead {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+.btn {
+  font-weight: 600;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  transition: background 0.2s;
+}
+.btn:hover, .btn:focus {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #fff;
+}
+.nav-link {
+  font-weight: 500;
+  color: #fff !important;
+  transition: color 0.2s;
+}
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #ffbe0b !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.modal-content {
+  border-radius: 16px;
+  background: #edf2fb;
+}
+
+a {
+  color: #3a86ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: #8338ec;
+}
